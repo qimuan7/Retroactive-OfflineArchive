@@ -1,4 +1,100 @@
-## Retroactive
+# Retroactive (回溯 3.0)
+
+---
+
+### **我不是原作者, 我不是原作者, 我不是原作者,** 因爲個人項目 ITM 間接用到 Retroactive, 且 RA 沒有存檔 iTunes 安裝包, 所以我把它複製了一次避免某天下載服務器關停
+
+### **I am not the original author, I am not the original author, I am not the original author.** Because my personal project ITM indirectly uses Retroactive, and RA doesn't archive the iTunes.pkg, I copied it to avoid the download server shutting down someday.
+
+---
+
+## 使用方法:
+
+> 只着重寫如何使用它來爲新版OSX安裝 iTunes, 更多內容可以查看下方原 README
+
+原 Readme 在 [此處](https://github.com/qimuan7/Retroactive-OfflineArchive/blob/1/README_EN-Original.md)
+
+### Release 中的文件是什麼? :
+
+- **Retroactive.3.0.zip** : Retroactive 安裝包, 下載解壓然後拖進應用文件夾即可使用
+
+- **iTunes12.6.5.dmg** : iTunes 12.6.5 安裝包, OSX10.13以上需要配合 Retroactive 安裝
+
+- **InstallESDDmg.zip.001/002/003** : **分卷壓縮的** iTunes 12.9.5.5 安裝包, OSX10.15以上需要配合 Retroactive 安裝 (至於爲什麼這麼大後面會解釋)
+
+- **iTunes_BigSurLiked-icon.icns** : iTunes 的方圖標, 安裝在OSX11或以上圓形看起來不和諧的話可以用它替換 (換圖標只需要點一下對應的文件, 然後點Cmd+i, 將圖標拖到彈出詳情的左上角那個文件圖標上就好)
+
+---
+
+**以下都是我自己嘗試和總結的, 儘管我在 x64 的 MBP 2017 上測試過, 但不保證 100% 能用, 不能用的話還是老老實實跟原方法吧**
+
+---
+
+### A.下載並安裝 iTunes 12.9.5.5
+
+1.從 Release 下載 Retroactive.3.0.zip , 隨後雙擊解壓縮, 並將解壓的 .app 文件拖到系統 "應用程式(Applications)" 文件夾
+
+2.1. 下載**三個** InstallESDDmg.zip.00X (001, 002, 003), 一共 5GB+, 確認全部下載, 並放在同一目錄下
+
+2.2. 使用類似 7zip, Maczip, 或其他**可以解壓分卷壓縮**的應用解壓三個中的任一, 稍等便可得到名爲 InstallESDDmg.pkg
+
+> 分卷壓縮就是把一個大文件切成幾份, 要還原的時候再拼起來, 壓縮應用就是這個負責分分合合的工具, 需要所有文件都在一個目錄下不然壓縮應用找不到某個部分就會失敗
+
+3. 打開 Retroactive, 選 "iTunes" 選項, 然後放着 Retroactive, 轉戰 Finder
+
+> 此時如果你繼續點下一步的話, 會觸發網上下載, 速度較慢但 100% 成功, 但我寫這段是爲了在沒網的情況下也能用, 所以沒跟原 README 的使用方法
+
+4. 打開 Finder, 按下 "Cmd+," (逗號), 在從側邊欄中勾選 MMachintosh HD 電腦硬盤 (叫其他名同理, 側邊欄顯示本機硬盤就好), 退出選項
+
+> "Cmd+," (逗號) 是快速打開對應app的設定選項, 選擇 Finder 就會開啓 Finder 的選項
+
+5. 點開 Finder 側邊欄中的本機硬盤目錄, 然後按下 "Cmd+Shift+." (句號), 這時你會看到目錄多了一堆灰色文件夾, 這是隱藏文件, 找到下方的 "tmp" 文件夾, 點開它, 然後把 InstallESDDmg.pkg 丟進去
+
+> "Cmd+Shift+." (句號) 是 Finder 顯示隱藏文件的快捷鍵, 按一下顯示, 再按一下隱藏, tmp 是臨時數據文件夾, 平時隱藏, 但 Retroactive 會把文件下載到這裏, 我們把下載好的文件放進去它就會跳過下載直接安裝
+
+6. 現在回到 Retroactive, 選擇下一步, 在版本選擇中選取 "12.9.5.5", 也就是默認選項, 然後按下一步, 不出意外 iTunes 應該很快會安裝完
+
+> 12.9.5.5 是在OSX上能安裝的最新版本, 這是移植了 OSX10.14 的 iTunes, 但 10.14 的 iTunes 內置在系統裏, 所以 InstallESDDmg.pkg 其實是完整的OSX10.14系統還原鏡像, 但只解壓其中的 iTunes 做移植, 其他都沒用. 我也嘗試過只把它解壓出來或者精簡這個鏡像, 但失敗了, Retroactive 只認這個 5GB+ 的文件, 所以沒招只能把它放上來, 不想要這麼大的可以用 12.6.5, 但界面可能會有一點點出錯 (功能不影響就是不太美觀)
+
+7. 確認安裝完成並且能打開後, 回到 tmp 目錄把 InstallESDEmg.pkg 和 Retroactive 文件夾刪掉, 返回硬盤目錄再按一次 "Cmd+Shift+." (句號), 好了你可以用 iTunes 了
+
+> 刪掉是避免 tmp 不會自動清理, 但理論上重啓或者垃圾清理工具會清理這個目錄, 所以點開用 iTunes 吧
+
+---
+
+### B.下載並安裝 iTunes 12.6.5
+
+1.從 Release 下載 Retroactive.3.0.zip , 隨後雙擊解壓縮, 並將解壓的 .app 文件拖到系統 "應用程式(Applications)" 文件夾
+
+> 這步是一樣的
+
+2. 下載 iTunes12.6.5.dmg
+
+3. 打開 Retroactive, 選 "iTunes" 選項, 然後放着 Retroactive, 轉戰 Finder
+
+> 此時如果你繼續點下一步的話, 會觸發網上下載, 速度較慢但 100% 成功, 但我寫這段是爲了在沒網的情況下也能用, 所以沒跟原 README 的使用方法
+
+4. 打開 Finder, 按下 "Cmd+," (逗號), 在從側邊欄中勾選 MMachintosh HD 電腦硬盤 (叫其他名同理, 側邊欄顯示本機硬盤就好), 退出選項
+
+> "Cmd+," (逗號) 是快速打開對應app的設定選項, 選擇 Finder 就會開啓 Finder 的選項
+
+5. 點開 Finder 側邊欄中的本機硬盤目錄, 然後按下 "Cmd+Shift+." (句號), 這時你會看到目錄多了一堆灰色文件夾, 這是隱藏文件, 找到下方的 "tmp" 文件夾, 點開它, 然後把 iTunes12.6.5.dmg 丟進去
+
+> "Cmd+Shift+." (句號) 是 Finder 顯示隱藏文件的快捷鍵, 按一下顯示, 再按一下隱藏, tmp 是臨時數據文件夾, 平時隱藏, 但 Retroactive 會把文件下載到這裏, 我們把下載好的文件放進去它就會跳過下載直接安裝
+
+6. 現在回到 Retroactive, 選擇下一步, 在版本選擇中選取 "12.6.5", 也就是默認選項右邊那一個, 然後按下一步, 不出意外 iTunes 應該很快會安裝完
+
+> 12.6.5 的部分選單顯示可能會有一點點白框或者其他怪怪的問題, 不過功能正常, 這是 iTunes 最後一個能用 iTunesU 和下載應用的版本(似乎是), 我也不懂作者爲何不加 iTunes 12.8.3 的適配, 輕量的同時比 12.6.5 新一些, 不過我沒能力開發或修改 (不是說有問題只是不太明白).
+
+7. 確認安裝完成並且能打開後, 回到 tmp 目錄把 iTunes12.6.5.dmg 和 Retroactive 文件夾刪掉, 返回硬盤目錄再按一次 "Cmd+Shift+." (句號), 好了你可以用 iTunes 了
+
+> 刪掉是避免 tmp 不會自動清理, 但理論上重啓或者垃圾清理工具會清理這個目錄, 所以點開用 iTunes 吧
+
+---
+
+## 教程結束, 跟着是原 README 的中文翻譯
+
+---
 
 您可以使用 Retroactive 在 macOS Golden Gate、macOS Tahoe、macOS Sequoia、macOS Sonoma、macOS Ventura、macOS Monterey、macOS Big Sur 和 macOS Catalina 上運行 Aperture、iPhoto 和 iTunes。在 macOS Mojave 上執行 Xcode 11.7。在 macOS Mojave 或 macOS High Sierra 上執行 Final Cut Pro 7、Logic Pro 9 和 iWork ’09。
 
