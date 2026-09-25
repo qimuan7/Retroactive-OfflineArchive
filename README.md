@@ -1,213 +1,241 @@
 ## Retroactive
 
-You can use Retroactive to run Aperture, iPhoto, and iTunes on macOS Golden Gate, macOS Tahoe, macOS Sequoia, macOS Sonoma, macOS Ventura, macOS Monterey, macOS Big Sur, and macOS Catalina. Xcode 11.7 on macOS Mojave. Final Cut Pro 7, Logic Pro 9, and iWork ’09 on macOS Mojave or macOS High Sierra.
+您可以使用 Retroactive 在 macOS Golden Gate、macOS Tahoe、macOS Sequoia、macOS Sonoma、macOS Ventura、macOS Monterey、macOS Big Sur 和 macOS Catalina 上運行 Aperture、iPhoto 和 iTunes。在 macOS Mojave 上執行 Xcode 11.7。在 macOS Mojave 或 macOS High Sierra 上執行 Final Cut Pro 7、Logic Pro 9 和 iWork ’09。
 
 <p align="center">
-  <a href="https://github.com/cormiertyshawn895/Retroactive/releases/download/3.0/Retroactive.3.0.zip" alt="Download Retroactive"><img width="282" height="68" src="screenshots/resources/download-button.png" alt="Download Retroactive"></a>
+
+<a href="https://github.com/cormiertyshawn895/Retroactive/releases/download/3.0/Retroactive.3.0.zip" alt="下載 Retroactive"><img width="282" height="68" src="screenshots/resources/loads/butremot.
+
 <p>
 
 ---
 
-### Opening Retroactive
+### 打開 Retroactive
 
-After downloading Retroactive, double click to open it. macOS may prompt you “Retroactive cannot be opened because it is from an unidentified developer.” This is expected.
+下載 Retroactive 後，雙擊即可開啟。 macOS 可能會提示「Retroactive 無法打開，因為它來自未識別的開發者。」這是正常現象。
 
-To open Retroactive, navigate to System Settings > Privacy & Security, then scroll down and click [“Open Anyway”](https://support.apple.com/102445#openanyway).
+要開啟 Retroactive，請前往“系統設定”>“隱私與安全性”，然後向下捲動並點擊“仍然開啟”。
 
 ![](screenshots/3.jpg)
 
-Retroactive will not harm your Mac. This alert only shows up because Retroactive is not notarized. Retroactive is open source, so you can always examine its source code to make sure it’s safe.
+Retroactive 不會損害您的 Mac。出現此警告的原因是 Retroactive 未經公證。 Retroactive 是開源軟體，因此您可以隨時查看其原始程式碼以確保其安全性。
 
 ---
 
-## Transition from Aperture, iPhoto, iTunes, and Final Cut Pro 7 to supported apps
+## 從 Aperture、iPhoto、iTunes 和 Final Cut Pro 7 過渡到支援的應用程式
 
-Because [Rosetta 2 will be removed from macOS 28](https://support.apple.com/102527), macOS Golden Gate is likely¹ the final version of macOS to support running Aperture, iPhoto, and iTunes through Retroactive.
+由於 [Rosetta 2 將從 macOS 28 中移除](https://support.apple.com/102527)，macOS Golden Gate 很可能是¹ 最後一個支援透過 Retroactive 運行 Aperture、iPhoto 和 iTunes 的 macOS 版本。
 
-After upgrading to macOS 28, you need to transition from Aperture, iPhoto, and iTunes to a wide range of supported apps, many of which are built into macOS or free to download.
+升級到 macOS 28 後，您需要從 Aperture、iPhoto 和 iTunes 過渡到一系列受支援的應用程序，其中許多應用程式已內建於 macOS 或可免費下載。
 
 #### iTunes
 
-- Switch to [Music](https://support.apple.com/guide/music/welcome/mac), [TV](https://support.apple.com/guide/tvapp-mac/welcome/mac), [Podcasts](https://support.apple.com/guide/podcasts/welcome/mac), [Books](https://support.apple.com/guide/books/welcome/mac), and [Finder](https://support.apple.com/102471).
-- Install Windows with [Parallels Desktop](https://www.parallels.com/products/desktop) or [VMware Fusion](https://www.vmware.com/products/fusion.html), then download [iTunes for Windows](https://apps.microsoft.com/detail/9PB2MZ1ZMB1S).
-- To archive iPhone and iPad apps, use [Asspp](https://github.com/Lakr233/Asspp), [IPATool](https://github.com/majd/ipatool), [iMazing](https://imazing.com), [Apple Configurator](https://apps.apple.com/app/id1037126344) [(tutorial)](https://raw.githubusercontent.com/cormiertyshawn895/Retroactive/master/Retroactive/Support/ConfiguratorTutorial.mp4), or [iTunes 12.6.5.3 for Windows](https://secure-appldnld.apple.com/itunes12/091-87819-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A6/iTunes64Setup.exe).
+-切換到[音樂](https://support.apple.com/guide/music/welcome/mac)、[電視](https://support.apple.com/guide/tvapp-mac/welcome/mac)、[Podcast](https://suppor t.apple.com/guide/podcasts/welcome/mac)、[圖書](https://support.apple.com/guide/books/welcome/mac)和[Finder](https://support.apple.com/102471)。
 
-#### Aperture and iPhoto
-- Switch to [Photos](https://support.apple.com/guide/photos/welcome/mac), [Darktable](https://www.darktable.org), or [RawTherapee](https://www.rawtherapee.com).
-- Purchase or subscribe to [AfterShot Pro](https://www.aftershotpro.com), [Capture One Pro](https://www.captureone.com), [Darkroom](https://apps.apple.com/app/id953286746), [DxO PhotoLab](https://www.dxo.com/dxo-photolab), [Lightroom](https://apps.apple.com/app/id1451544217), [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html), [Luminar Neo](https://apps.apple.com/app/id1584373150), or [Photomator](https://apps.apple.com/app/id1444636541).
+- 使用[Parallels Desktop](https://www.parallels.com/products/desktop)或[VMware Fusion](https://www.vmware.com/products/fusion.html)安裝Windows，然後下載[適用於Windows的iTunes](https://apps.microsoft.com/detail/9
+
+- 要歸檔 iPhone 和 iPad 應用，請使用 [Asspp](https://github.com/Lakr233/Asspp)、[IPATool](https://github.com/majd/ipatool)、[iMazing](https://imazing.com)、[Apple Configurator](https://apps.app37413213721321370321321337330373333333333) [(教學)](https://raw.githubusercontent.com/cormiertyshawn895/Retroactive/master/Retroactive/Support/ConfiguratorTutorial.mp4) 或 [適用於 Windows 的 iTunes 12.6.5.3](https://secure-appldnld.apple.com/itunes12/091-87819-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A6/Setiunes)。
+
+#### Aperture 和 iPhoto
+
+- 請切換到 [照片](https://support.apple.com/guide/photos/welcome/mac)、[Darktable](https://www.darktable.org) 或 [RawTherapee](https://www.rawtherapee.com)。
+
+- 購買或訂閱 [AfterShot Pro](https://www.aftershotpro.com)、[Capture One Pro](https://www.captureone.com)、[Darkroom](https://apps.apple.com/app/id953286746)、[DxO PhotoLab](https://www.dxo.com/dxo-photolab)、[Lightroom](https://apps.apple.com/app/id1451544217)、[Lightroom Classic](https://www.adobe.com/products/photoshop-light1544217)、[Lightroom Classic](https://www.adobe.com/products/photoshop- [Photomator](https://apps.apple.com/app/id1444636541)。
 
 #### Final Cut Pro 7
-- Export your projects into XML on a compatible Mac. Then import them into [DaVinci Resolve](https://apps.apple.com/app/id571213070), [Media Composer](https://www.avid.com/media-composer), or [Premiere Pro](https://www.adobe.com/products/premiere.html). You can also use [SendToX](https://apps.apple.com/app/id496926258) to import them into the latest version of [Final Cut Pro](https://apps.apple.com/app/id424389933).
 
-¹ It may theoretically be possible to modify Aperture, iPhoto, and iTunes in a way that makes macOS 28 treat them as older, unmaintained games, which will continue to run under a subset of Rosetta functionality.
+- 在相容的 Mac 上將您的專案匯出為 XML 檔案。然後將它們匯入 [DaVinci Resolve](https://www.avid.com/media-composer) 或 [Premiere Pro](https://www.adobe.com/products/premiere.html)。您也可以使用 [SendToX](https://apps.apple.com/app/id496926258) 將它們匯入到最新版本的 [Final Cut Pro](https://apps.apple.com/app/id424389933)。
 
-Because Aperture, iPhoto, and iTunes likely depend on frameworks beyond this remaining subset, Aperture, iPhoto, and iTunes may need to be augmented with x86_64 frameworks extracted from the dyld shared cache from macOS Golden Gate using [dsce](https://github.com/moraea/dsce).
+¹ 理論上，可以透過修改 Aperture、iPhoto 和 iTunes，讓 macOS 28 將它們視為較舊的、不再維護的遊戲，這些遊戲將繼續在 Rosetta 的部分功能下運作。
+
+由於 Aperture、iPhoto 和 iTunes 可能依賴超出此子集範圍的框架，因此可能需要使用 [dsce](https://github.com/moraea/dsce) 從 macOS Golden Gate 的 dyld 共享緩存中提取 x86_64 框架來增強 Aperture、iPhoto 和 iTunes 的功能。
 
 ---
 
-### Picking an app
+### 選擇應用
 
-On macOS Golden Gate, macOS Tahoe, macOS Sequoia, macOS Sonoma, macOS Ventura, macOS Monterey, macOS Big Sur, and macOS Catalina, Retroactive can unlock Aperture and iPhoto, or install iTunes. Pick the app you want to run. If you want to run multiple apps from here, pick any one of them. You will always be able to get back to this screen later.
+在 macOS Golden Gate、macOS Tahoe、macOS Sequoia、macOS Sonoma、macOS Ventura、macOS Monterey、macOS Big Sur 和 macOS Catalina 上，Retroactive 可以解鎖 Aperture 和 iPhoto，或安裝 iTunes。選擇您想要運行的應用程式。如果您想從此處運行多個應用，請選擇其中任何一個。您之後始終可以返回此畫面。
 
 ![](screenshots/4.jpg)
 
-On macOS Mojave and macOS High Sierra, Retroactive can also unlock Final Cut Pro 7, Logic Pro 9 (experimental), Xcode 11.7 (requires macOS Mojave), and fix iWork ’09.
+在 macOS Mojave 和 macOS High Sierra 系統上，Retroactive 還可以解鎖 Final Cut Pro 7、Logic Pro 9（實驗性功能）、Xcode 11.7（需要 macOS Mojave 系統），並修復 iWork ’09。
 
 ![](screenshots/4b.jpg)
 
-I’ll use Aperture as the example, but the same process also works for iPhoto, iTunes, Final Cut Pro 7, Logic Pro 9, Xcode 11.7, and iWork ’09.
+我將以 Aperture 為例，但同樣的方法也適用於 iPhoto、iTunes、Final Cut Pro 7 和 Logic Pro。支援 Logic Pro 9、Xcode 11.7 和 iWork ’09。
 
 ---
 
-### Locating the app or choosing a version
+### 尋找應用程式或選擇版本
 
-Retroactive will automatically scan your Mac to locate an existing Aperture, iPhoto, Final Cut Pro 7, Logic Pro 9, Xcode 11.7, or iWork ’09 install. If Retroactive has already located the app you would like to run, skip to the next section.
+Retroactive 會自動掃描您的 Mac，尋找已安裝的 Aperture、iPhoto、Final Cut Pro 7、Logic Pro 9、Xcode 11.7 或 iWork ’09。如果 Retroactive 已找到您想要運行的應用程式，請跳至下一部分。
 
-If Retroactive can’t locate an existing install, you’ll either be asked to download it, or re-install it from a DVD disc. You can also find the app on another Mac you own, then AirDrop it to this Mac, or restore the app from a Time Machine backup.
+如果 Retroactive 找不到已安裝的應用程式，系統會提示您下載或從 DVD 光碟重新安裝。您也可以在您擁有的另一台 Mac 上找到該應用程式，然後透過隔空投送 (AirDrop) 將其傳輸到這台 Mac，或從 Time Machine 備份中還原該應用程式。
 
 ![](screenshots/5.jpg)
 
-If you chose iTunes, Retroactive will ask you which version to install, then automatically download and install it for you.
+如果您選擇 iTunes，Retroactive 會詢問您要安裝哪個版本，然後自動下載並安裝您。
 
-- iTunes 12.9.5 supports Dark Mode and most DJ apps.
-- iTunes 12.6.5 supports Ringtones and iTunes U.
-- iTunes 11.4 has a classic look.
-- iTunes 10.7 supports CoverFlow.
+- iTunes 12.9.5 支援深色模式和大多數 DJ 應用程式。
 
-If you don’t know which version to install, keep the default setting and click “Continue”.
+- iTunes 12.6.5 支援鈴聲和 iTunes U。
+
+- iTunes 11.4 採用經典介面。
+
+- iTunes 10.7 支援 CoverFlow。
+
+如果您不知道要安裝哪個版本，請保留預設設定並點擊「繼續」。
 
 ---
 
-### Authenticating Retroactive
+### 驗證 Retroactive
 
-To install or modify the app you chose, you need to authenticate with your login password first. Click “Authenticate”, and enter your login password.
+若要安裝或修改您選擇的應用程式，您需要先使用登入密碼進行驗證。點擊“驗證”，然後輸入您的登入密碼。
 
 ![](screenshots/6.jpg)
 
-Your password is never stored or sent anywhere. To verify this, you can view Retroactive’s source code.
+您的密碼絕不會被儲存或發送到任何地方。您可以查看 Retroactive 的源代碼來驗證這一點。
 
 ---
 
-### Modifying the app
+### 修改應用
 
-Retroactive will install or modify the app you chose. Modifying the app should only take about 2 minutes.
+Retroactive 將安裝或修改您選擇的應用。修改應用大約需要 2 分鐘。
 
 ![](screenshots/7.jpg)
 
-If you chose to install iTunes, this process may longer. 
+如果您選擇安裝 iTunes，則此過程可能會更長。
 
-- Depending on the version you chose, it can take between 10 minutes to an hour.
-- It is completely normal for the fans to spin up during the process.
-- If Retroactive asks for your login password again, re-enter it again.
-- If iTunes 12.9.5 can’t be installed, try to install iTunes 12.6.5.
+- 根據您選擇的版本，安裝可能需要 10 分鐘到 1 小時。
+
+- 安裝過程中風扇運轉是正常現象。
+
+- 如果 Retroactive 再次要求您輸入登入密碼，請重新輸入。
+
+- 如果 iTunes 12.9.5 無法安裝，請嘗試安裝 iTunes 12.6.5。
 
 ![](screenshots/7a.jpg)
 
-After installing iTunes, Retroactive will ask you about iPod syncing. If you need to sync with iPod devices, click "Enable Full Disk Access", and follow on-screen instructions provided by Retroactive.
+安裝 iTunes 後，Retroactive 會詢問您是否要同步 iPod。如果您需要與 iPod 裝置同步，請點選“啟用完全磁碟存取權限”，然後依照 Retroactive 提供的畫面說明進行操作。
 
 ![](screenshots/8.jpg)
 
-That's it! You can use the app now.
+完成！您現在可以使用該應用程式了。
 
 ---
 
-### Using the app
+### 使用應用
 
-After successfully modifying or installing the app, you can play with it to your heart's content.
+成功修改或安裝應用程式後，您可以盡情體驗它的各項功能。
 
 ![](screenshots/9.jpg)
 
-- All Aperture features should be available except for playing videos, exporting slideshows, Photo Stream, and iCloud Photo Sharing. If RAW photos can't be opened, [you need to reprocess them](https://github.com/cormiertyshawn895/Retroactive#reprocessing-raw-photos-in-aperture).
+- 除了播放影片、匯出幻燈片、照片串流和 iCloud 照片分享之外，Aperture 的所有功能都應該可用。如果 RAW 照片無法打開，[您需要重新處理它們](https://github.com/cormiertyshawn895/Retroactive#reprocessing-raw-photos-in-aperture)。
 
-- All iPhoto features should be available except for playing videos, exporting slideshows, Photo Stream, and iCloud Photo Sharing.
+- 除了播放影片、匯出幻燈片、照片串流和 iCloud 照片分享之外，iPhoto 的所有功能都應該可用。
 
-- All features should work for iTunes 12.9.5.
+- 所有功能都應該適用於 iTunes 12.9.5。
 
-- Most features should work for iTunes 12.6.5. Use iTunes 12.9.5 or Finder to back up your device instead. Use [Apple Configurator 2](https://apps.apple.com/app/apple-configurator-2/id1037126344) to [download iOS apps on your Mac](https://www.youtube.com/watch?v=M_3t06FEhR0).
+- 大多數功能應該適用於 iTunes 12.6.5。請使用 iTunes 12.9.5 或 Finder 備份您的裝置。使用 [Apple Configurator 2](https://apps.apple.com/app/apple-configurator-2/id1037126344) 在 Mac 上下載 iOS 應用程式。
 
-- Movies and TV Shows downloaded from the iTunes Store may be unable to play in iTunes. Download or play them in the TV app instead. 
+- 從 iTunes Store 下載的電影和電視節目可能無法在 iTunes 中播放。請改用 TV 應用程式下載或播放。
 
-- Some dialogs in iTunes may display a crossed-out iTunes icon. This is purely cosmetic and has no functional impact.
+- iTunes 中的某些對話方塊可能會顯示帶有叉的 iTunes 圖示。這只是顯示問題，不影響功能。
 
-- All Final Cut Pro 7 features should work.
+- Final Cut Pro 7 的所有功能應該都能正常運作。
 
-- Support for Logic Pro 9 is experimental. You may see frequent freezes and hangs.
+- 對 Logic Pro 9 的支援尚處於實驗階段。您可能會遇到頻繁的卡頓和崩潰。
 
-- Most Xcode 11.7 features should work.
+- Xcode 11.7 的大部分功能應該都能正常運作。
 
-- After fixing iWork ’09, text format and paragraph alignment controls in the format bar should appear correctly. Scroll bars will no longer appear behind the document canvas.
+- 修正 iWork ’09 後，格式欄中的文字格式和段落對齊控制項應該能夠正確顯示。捲軸將不再出現在文件畫布的後面。
 
-- After fixing Keynote ’09 with Retroactive, you can normally play slideshows.
+- 使用 Retroactive 修復 Keynote ’09 後，您可以正常播放投影片。
 
-- After fixing Pages ’09 with Retroactive, typing and scrolling in Pages ’09 should be more responsive.
-
----
-
-### Syncing with a device
-
-If you connect an Apple device to your Mac, and either see nothing in iTunes, or "The device is in use by another user on this computer":
-
-- Disconnect the device from your Mac, but keep iTunes open.
-- Click on the Spotlight icon (magnifying glass) on the menu bar.
-- Type "Terminal" and press return to open the Terminal app.
-- Enter `killall AMPDevicesAgent` in the Terminal window, and press return.
-- Connect the Apple device back to your Mac.
-
-If you connect an Apple device to your Mac, and see "iTunes cannot read the contents of the device. Go to the Summary tab in device preferences and click Restore to restore this device to factory settings":
-
-- You may have installed iTunes with Retroactive 1.4 or earlier.
-- Once you reinstall iTunes [using the latest version of Retroactive](https://github.com/cormiertyshawn895/Retroactive/releases/), iTunes should be able to read the contents of your device as expected.
-- At the end of the installation process, Retroactive will ask you about iPod syncing. If you need to sync with iPod devices, click "Enable Full Disk Access".
-
-If you try to enable VoiceOver for iPod shuffle, but see "iTunes was unable to install the VoiceOver Kit. An unknown error occurred (1701)":
-
-- [Directly download the VoiceOver 1.4.2 installer here](https://swdist.apple.com/content/downloads/29/37/041-91732-A_LSWLP6NLRV/bk8l36k29x8d146doiwcvuv8qemu3mzxwk/VoiceOver.pkg).
-- Install the downloaded VoiceOver.pkg.
-- Quit and re-open iTunes.
+- 使用 Retroactive 修復 Pages ’09 後，Pages ’09 中的輸入和滾動操作應該會更加流暢。
 
 ---
 
-### Downloading iOS Apps
+### 與裝置同步
 
-Starting from April 2020, you'll need to use [Apple Configurator 2](https://apps.apple.com/app/apple-configurator-2/id1037126344) to [download iOS apps on your Mac](https://www.youtube.com/watch?v=M_3t06FEhR0).
+如果您將 Apple 裝置連接到 Mac，但在 iTunes 中看不到任何內容，或顯示「此裝置正被此電腦上的其他使用者使用」：
+
+- 中斷裝置與 Mac 的連接，但保持 iTunes 開啟。
+
+- 點選選單列上的 Spotlight 圖示（放大鏡）。
+
+- 輸入「終端」並按下回車鍵開啟終端應用程式。
+
+- 在終端機視窗中輸入 `killall AMPDevicesAgent` 並按下回車鍵。
+
+- 將 Apple 裝置重新連接到 Mac。
+
+如果您將 Apple 裝置連接到 Mac，並看到「iTunes 無法讀取裝置內容。請前往裝置偏好設定中的『摘要』標籤頁，然後點擊『恢復』將此裝置還原到原廠設定」：
+
+- 您可能安裝了 Retroactive 1.4 或更早版本的 iTunes。
+
+- 重新安裝 iTunes（使用最新版本的 Retroactive）後，iTunes 應該可以正常讀取裝置內容。
+
+- 安裝過程結束時，Retroactive 會詢問您是否要同步 iPod。如果您需要與 iPod 裝置同步，請點選「啟用完全磁碟存取權限」。
+
+如果您嘗試為 iPod shuffle 啟用 VoiceOver，但看到「iTunes 無法安裝 VoiceOver 套件。未知原因」：發生錯誤 (1701)：
+
+- [在此處直接下載 VoiceOver 1.4.2 安裝程式](https://swdist.apple.com/content/downloads/29/37/041-91732-A_LSWLP6NLRV/bk8l36k29x8d146doiwcvuv8qemu3mOxRkqemu3m
+
+- 安裝下載的 VoiceOver.pkg 檔案。
+
+- 退出並重新開啟 iTunes。
 
 ---
 
-### Final Cut Pro 7 and the Apple Pro Video Formats update
+### 下載 iOS 應用
 
-If you install Apple Pro Video Formats update from Software Update, you may need to [follow these instructions](https://github.com/cormiertyshawn895/Retroactive/issues/130#issuecomment-724078303) to re-enable Final Cut Pro 7.
+自 2020 年 4 月起，您需要使用 [Apple Configurator 2](https://apps.apple.com/app/apple-configurator-2/id1037126344) 在您的裝置上下載 iOS 應用程式。 Mac](https://www.youtube.com/watch?v=M_3t06FEhR0).
 
 ---
 
-### Reprocessing RAW photos in Aperture
+### Final Cut Pro 7 與 Apple Pro 影片格式更新
 
-- In Aperture, if your RAW photos show up as “*Unsupported Image Format*”, open the “*Photos*” menu, click on “*Reprocess original…*”, and reprocess all photos. After reprocessing your RAW photos, you will be able to preview and adjust them as before.
+如果您透過軟體更新安裝了 Apple Pro 視訊格式更新，您可能需要[按照以下說明操作](https://github.com/cormiertyshawn895/Retroactive/issues/130#issuecomment-724078303)來重新啟用 Final Cut Pro 7。
+
+---
+
+### 在 Aperture 中重新處理 RAW 照片
+
+- 在 Aperture 中，如果您的 RAW 照片顯示為“*不支援的圖像格式*”，請開啟“*照片*”選單，點擊“*重新處理原始…*”，然後重新處理所有照片。重新處理 RAW 照片後，您將能夠像以前一樣預覽和調整它們。
 
 ![](screenshots/reprocess.jpg)
 
-💡 Tip:
+💡 提示：
 
-- If some RAW photos still show up as "*Unsupported Image Format*" after reprocessing, repeat the process above to reprocess all photos again. In other words, you may need to reprocess all photos twice. 
-
----
-
-### Workaround to install Final Cut Pro 7 in VMware Fusion
-
-If you don't have a Mac released before Late 2019, you can still install Final Cut Pro 7 in VMware Fusion to export existing Final Cut Pro 7 projects into XML files. This lets SendToX, DaVinci Resolve, Media Composer, and Premiere Pro open them. 
-
-- [Install macOS Mojave virtual machine with VMware Fusion](https://www.huibdijkstra.nl/how-to-set-up-a-osx-mojave-vm-in-vmware-fusion/). Other virtual machine software, such as Parallels Desktop, is not supported and will not work.
-- After mounting the Final Cut Studio installer in VMware Fusion, right click on Install Final Cut Studio.pkg > Show Original, then copy FinalCutStudio.mpkg and Packages to VMware Fusion's Desktop
-- Right click on the copied FinalCutStudio.mpkg > Show Package Contents > Resources
-- Right click on Requirements Checker.app > Show Package Contents > Contents > Resources
-- Delete minsys.plist
-- Double click on the modified FinalCutStudio.mpkg to start the install
-- Use Retroactive as usual
-
-To use editing features such as timeline and preview, install macOS Mojave on a real, older Mac released before Late 2019, then run Retroactive as usual.
+- 如果部分 RAW 照片在重新處理後仍顯示為“*不支援的影像格式*”，請重複上述步驟重新處理所有照片。換句話說，您可能需要重新處理所有照片兩次。
 
 ---
 
-### Last words
-- If GateKeeper prevents you from running modified versions of your chosen app, [temporarily disable GateKeeper in Terminal](http://osxdaily.com/2015/05/04/disable-gatekeeper-command-line-mac-osx/) with `sudo spctl --master-disable`.
+### 在 VMware Fusion 中安裝 Final Cut Pro 7 的變通方法
 
-- To learn more about how Retroactive works, [take a technical deep dive](https://medium.com/@cormiertyshawn895/deep-dive-how-does-retroactive-work-95fe0e5ea49e).
+如果您沒有 2019 年底之前發布的 Mac，您仍然可以在 VMware Fusion 中安裝 Final Cut Pro 7，並將現有的 Final Cut Pro 7 專案匯出為 XML 檔案。這樣，SendToX、DaVinci Resolve、Media Composer 和 Premiere Pro 就可以開啟這些檔案。
+
+- [使用 VMware Fusion 安裝 macOS Mojave 虛擬機器](https://www.huibdijkstra.nl/how-to-set-up-a-osx-mojave-vm-in-vmware-fusion/)。其他虛擬機器軟體（例如 Parallels Desktop）不受支持，無法正常運作。
+
+- 在 VMware Fusion 中掛載 Final Cut Studio 安裝程式後，以滑鼠右鍵按一下「安裝 Final Cut」。 Studio.pkg > 顯示原始文件，然後將 FinalCutStudio.mpkg 和 Packages 複製到 VMware Fusion 的桌面
+
+- 右鍵點選複製的 FinalCutStudio.mpkg > 顯示包內容 > 資源
+
+- 右鍵點選 Requirements Checker.app > 顯示包內容 > 內容 > 資源
+
+- 刪除 minsys.plist
+
+- 雙擊修改後的 FinalCutStudio.mpkg 開始安裝
+
+- 照常使用 Retroactive
+
+若要使用時間軸和預覽等編輯功能，請在 2019 年底之前發布的舊款 Mac 上安裝 macOS Mojave，然後照常執行 Retroactive。
+
+---
+
+### 最後說明
+
+- 如果 GateKeeper 阻止您執行所選應用程式的修改版本，請使用 `sudo spctl --master-disable` 指令在終端機中暫時停用 GateKeeper。
+
+- 了解更多資訊追溯性工作，[深入了解技術細節](https://medium.com/@cormiertyshawn895/deep-dive-how-does-retroactive-work-95fe0e5ea49e)。
